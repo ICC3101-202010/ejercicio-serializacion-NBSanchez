@@ -57,7 +57,7 @@ namespace Trabajo_en_clase
                 {
                     for(int x = 0; x < ListaPersonas.Count(); x++)
                     {
-                        Console.WriteLine(ListaPersonas[x]);
+                        Console.WriteLine(ListaPersonas[x].Informacion());
                     }
                 }
                 else if (choice == "E" || choice == "e")

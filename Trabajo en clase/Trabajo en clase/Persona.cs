@@ -23,6 +23,10 @@ namespace Trabajo_en_clase
             this.LastName = LastName;
             this.Age = Age;
         }
+        public string Informacion()
+        {
+            return ("Nombre: " + Name + " Apellido: " + LastName + " Edad: " + Age);
+        }
 
     }
 }
